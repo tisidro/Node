@@ -16,6 +16,12 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use((req, res, next) => {
+
+    console.log('second middleware loaded');
+    next();
+});
+
 app.get('/', (req, res) => {
     const blogs = [
         { title: 'First test blog', snippet: 'lorem ipsum dolor sit amet consectetur' },
