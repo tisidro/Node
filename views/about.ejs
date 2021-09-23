@@ -10,27 +10,16 @@
 </head>
 
 <body>
-    <nav>
-        <div class="site-title">
-            <a href="/">
-                <h1>My Blog</h1>
-            </a>
-            <p>A sample site to show my ability to create a blog with node/ejs view engine</p>
+
+    <%- include('./partials/nav.ejs') %>
+
+        <div class="About content">
+            <h2>About Us</h2>
+            <p>I'm a software engineer, here's a blog application I created!</p>
+            <p>I also utilized html, css, javascript</p>
+            <p>I have a background in web design, UI/UX, web content writing/editing, and education</p>
+
         </div>
-        <ul>
-            <li><a href="/">Blogs</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blogs/create">Create A New Blog</a></li>
-        </ul>
-    </nav>
-
-    <div class="About content">
-        <h2>About Us</h2>
-        <p>I'm a software engineer, here's a blog application I created!</p>
-        <p>I also utilized html, css, javascript</p>
-        <p>I have a background in web design, UI/UX, web content writing/editing, and education</p>
-
-    </div>
 </body>
 
 </html>
