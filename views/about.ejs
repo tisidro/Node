@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terri's Blog App |
-        <%= title %>
-    </title>
-</head>
 
-<body>
+<%- include('./partials/nav.ejs') %>
 
-    <%- include('./partials/nav.ejs') %>
+    <body>
 
-        <div class="About content">
-            <h2>About Us</h2>
-            <p>I'm a software engineer, here's a blog application I created!</p>
-            <p>I also utilized html, css, javascript</p>
-            <p>I have a background in web design, UI/UX, web content writing/editing, and education</p>
+        <%- include('./partials/nav.ejs') %>
 
-        </div>
-</body>
+            <div class="About content">
+                <h2>About Us</h2>
+                <p>I'm a software engineer, here's a blog application I created!</p>
+                <p>I also utilized html, css, javascript</p>
+                <p>I have a background in web design, UI/UX, web content writing/editing, and education</p>
+
+            </div>
+            <%- include('./partials/footer.ejs') %>
+
+    </body>
 
 </html>
